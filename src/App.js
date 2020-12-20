@@ -12,7 +12,6 @@ import { Discord } from "./webpages/Discord";
 import { User } from "./components/Users";
 //"start": "PORT=3006 react-scripts start" for linux
 
-
 function App() {
     return (
       <div className="d-flex flex-column h-100">
