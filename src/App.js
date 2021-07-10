@@ -27,7 +27,7 @@ function App() {
                 <Route exact path="/quests" component={quests} />
                 <Route exact path="/discord" component={Discord} />
                 <Route exact path="/users" component={User} />
-                <Route component={NoMatch} />
+                <Route component={ NoMatch } />
               </Switch>
             </Table>
           </Layout>
